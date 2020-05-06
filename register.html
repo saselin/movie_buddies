@@ -7,22 +7,14 @@
   </head>
   <body>
     <form action="index.html" method="post">
-      <fieldset name="Login">
-        <legend>Login</legend>
+      <fieldset>
+        <legend>Deine Infos</legend>
         <p><label for="lbUserName">Username:</label>
           <input type="text" name="username" id="lbUserName" value="" placeholder="Wie möchtest du heißen?" required></p>
-        <p><label for="lbEmail">E-Mail:</label>
-          <input type= "email" name="E-Mail" id="lbEmail" value="" placeholder="mustermann@mail.de" required></p>
-        <p><label for="lbPassword">Passwort:</label>
-          <input type="text" name="password" id="lbPassword" value="" placeholder="********" required></p>
-      </fieldset>
 
-      <fieldset>
-        <legend>Persönliches</legend>
-        <p><label for="lbFavoriteMovies">Lieblingsfilme:</label>
-           <input type="text" name="favoriteMovies" id="lbFavoriteMovies" value=""></p>
-        <p><label for="lbAboutMe">Über mich:</label>
-           <textarea name="aboutMe" id="lbAboutMe"></textarea></p>
+        <!--Mit Enter neues Feld bei Regisseur.-->
+        <p><label for="lbRegisseur">Regisseur</label>
+            <input type="text" name="favoriteRegisseur" id="lbRegisseur" value=""></p>
         <p><label for="genre">Filmgenre:</label> <br>
                        <label for="lbAdventure">Abenteuer</label>
                           <input type="checkbox" name="genre_adventure" id="lbAdventure" value=""> <br>
