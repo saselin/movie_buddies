@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="de" dir="ltr">
+  <head>
+    <meta charset="utf-8" content-type="text/html">
+    <title>Registrieren</title>
+    <link rel="stylesheet" type="text/css" href="styleRegister.css">
+  </head>
+  <body>
+    <form action="index.html" method="post">
+      <fieldset name="Login">
+        <legend>Login</legend>
+        <p><label for="lbUserName">Username:</label>
+          <input type="text" name="username" id="lbUserName" value="" placeholder="Wie möchtest du heißen?" required></p>
+        <p><label for="lbEmail">E-Mail:</label>
+          <input type= "email" name="E-Mail" id="lbEmail" value="" placeholder="mustermann@mail.de" required></p>
+        <p><label for="lbPassword">Passwort:</label>
+          <input type="text" name="password" id="lbPassword" value="" placeholder="********" required></p>
+      </fieldset>
+
+      <fieldset>
+        <legend>Persönliches</legend>
+        <p><label for="lbFavoriteMovies">Lieblingsfilme:</label>
+           <input type="text" name="favoriteMovies" id="lbFavoriteMovies" value=""></p>
+        <p><label for="lbAboutMe">Über mich:</label>
+           <textarea name="aboutMe" id="lbAboutMe"></textarea></p>
+        <p><label for="genre">Filmgenre:</label> <br>
+                       <label for="lbAdventure">Abenteuer</label>
+                          <input type="checkbox" name="genre_adventure" id="lbAdventure" value=""> <br>
+                       <label for="lbAction">Action</label>
+                          <input type="checkbox" name="genre_action" id="lbAction" value=""> <br>
+                       <label for="lbDrama">Drama</label>
+                          <input type="checkbox" name="genre_drama" id="lbDrama" value=""> <br>
+                       <label for="lbFantasy">Fantasy</label>
+                          <input type="checkbox" name="genre_fantasy" id="lbFantasy" value=""> <br>
+                       <label for="lbBiographie">Biografie</label>
+                          <input type="checkbox" name="genre_biographie" id="lbBiographie" value=""> <br>
+                       <label for="lbComedy">Komödie</label>
+                          <input type="checkbox" name="genre_comedy" id="lbComedy" value=""> <br>
+                       <label for="lbHorror">Horror</label>
+                          <input type="checkbox" name="genre_horror" id="lbHorror" value=""> <br>
+                       <label for="lbWar">Kriegs</label>
+                          <input type="checkbox" name="genre_war" id="lbWar" value=""> <br>
+                       <label for="lbCriminal">Krimi</label>
+                          <input type="checkbox" name="genre_criminal" id="lbCriminal" value=""> <br>
+                       <label for="lbRomance">Liebesfilme</label>
+                          <input type="checkbox" name="genre_romance" id="lbRomance" value=""> <br>
+                       <label for="lbMartialArts">Matrial-Arts</label>
+                          <input type="checkbox" name="genre_martialArts" id="lbMartialArts" value=""> <br>
+                       <label for="lbMusic">Musikfilm</label>
+                          <input type="checkbox" name="genre_music" id="lbMusic" value=""> <br>
+                       <label for="lbScienceFiction">Science-Fiction</label>
+                          <input type="checkbox" name="genre_scienceFiction" id="lbScienceFiction" value=""> <br>
+                       <label for="lbThriller">Thriller</label>
+                          <input type="checkbox" name="genre_thriller" id="lbThriller" value=""> <br>
+                       <label for="lbWestern">Western</label>
+                          <input type="checkbox" name="genre_western" id="lbWestern" value=""> <br>
+        </p>
+      </fieldset>
+
+      <p><input type="submit" value="Bestätigen"></p>
+    </form>
+
+<!--<p id="test">Das ist ein super krasser Satz, der nun formatiert wird. Ansonsten muss ich schauen, wie ich es einbinde und arbeitsfähig mache.</p> -->
+
+  </body>
+</html>
